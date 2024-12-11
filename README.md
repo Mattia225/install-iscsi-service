@@ -9,18 +9,18 @@ Enjoy!
 debian base
 
 ```sh
-sudo apt install open-iscsi  -y
+sudo apt install open-iscsi git  -y
 ```
 
 arch base
 
 ```sh
-sudo pacman -Syu open-iscsi --noconfirm && sudo systemctl enable --now iscsid.service
+sudo pacman -Syu open-iscsi git--noconfirm && sudo systemctl enable --now iscsid.service
 ```
 
 fedora base
 
 ```sh
-sudo dnf install open-iscsi -y
+sudo dnf install open-iscsi git -y
 ```
 
